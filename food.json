@@ -1,0 +1,35 @@
+[
+  {
+    "question": "apple.png",
+    "kanji": "林檎",
+    "kana": "りんご",
+    "romaji": "ringo",
+    "is_common": true,
+    "jlpt": "5",
+    "parts_of_speech": [
+      "Noun"
+    ]
+  },
+  {
+    "question": "bread.png",
+    "kanji": "パン",
+    "kana": "パン",
+    "romaji": "pan",
+    "is_common": true,
+    "jlpt": "jlpt-n5",
+    "parts_of_speech": [
+      "Noun"
+    ]
+  },
+  {
+    "question": "carrot.png",
+    "kanji": "人参",
+    "kana": "にんじん",
+    "romaji": "ninjin",
+    "is_common": true,
+    "jlpt": "5",
+    "parts_of_speech": [
+      "Noun"
+    ]
+  }
+]
