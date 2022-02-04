@@ -4,7 +4,7 @@ require 'open-uri'
 
 # prompts user for input, usually begins with romaji, which is the romanized form of Japanese
 def ask_user_for(missing_field, question)
-    puts "Cannot find the #{missing_field} of #{question}"
+    puts "Cannot find the #{missing_field} of #{question.split(".").first.gsub("-", " ")}"
     puts "Please enter value:"
   return gets.chomp
 end
@@ -57,10 +57,10 @@ question_values.each do |question|
   prefilled_question = filled_keys.find { |hash| hash["question"] == question }
   if prefilled_question
     json << prefilled_question
-    puts "--- #{question} - Already in file - もうある ---"
+    puts "--- #{question.split(".").first.gsub("-", " ")} - Already in file - もうある ---"
   else
     json << fill_out_question(question)
-    puts "--- #{question} - Written to JSON - 保存する ---"
+    puts "--- #{question.split(".").first.gsub("-", " ")} - Written to JSON - 保存する ---"
   end
   # writes formatted question to the target_file
   File.open(target_file, "w") do |file|

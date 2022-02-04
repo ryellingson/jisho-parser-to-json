@@ -31,5 +31,27 @@
     "parts_of_speech": [
       "Noun"
     ]
+  },
+  {
+    "question": "cooked-rice.png",
+    "kanji": "飯",
+    "kana": "めし",
+    "romaji": "gohan",
+    "is_common": true,
+    "jlpt": "jlpt-n3",
+    "parts_of_speech": [
+      "Noun"
+    ]
+  },
+  {
+    "question": "egg.png",
+    "kanji": "卵",
+    "kana": "たまご",
+    "romaji": "tamago",
+    "is_common": true,
+    "jlpt": "jlpt-n5",
+    "parts_of_speech": [
+      "Noun"
+    ]
   }
 ]
